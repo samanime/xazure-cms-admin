@@ -15,8 +15,7 @@ const routeManager = (() => {
     add: route => {
       router.addRoutes([].concat(route));
     },
-        get
-    : () => router
+    get: () => router
   };
 })();
 
